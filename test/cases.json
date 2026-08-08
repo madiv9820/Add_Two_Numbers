@@ -1,0 +1,92 @@
+[
+  {
+    "title": "🥉 Simple Addition",
+    "input": {
+      "l1": [2, 4, 3],
+      "l2": [5, 6, 4]
+    },
+    "output": [7, 0, 8],
+    "description": "➕ Adds two three-digit numbers with no final carry."
+  },
+  {
+    "title": "🟢 Adding Zeros",
+    "input": {
+      "l1": [0],
+      "l2": [0]
+    },
+    "output": [0],
+    "description": "0️⃣ Adds two numbers that are both zero."
+  },
+  {
+    "title": "🔥 Carry Across Every Digit",
+    "input": {
+      "l1": [9, 9, 9],
+      "l2": [1]
+    },
+    "output": [0, 0, 0, 1],
+    "description": "💥 A carry propagates through every digit and creates a new node."
+  },
+  {
+    "title": "⚡ Different Lengths",
+    "input": {
+      "l1": [2, 4, 3],
+      "l2": [5, 6]
+    },
+    "output": [7, 0, 4],
+    "description": "📏 Adds numbers represented by linked lists of different lengths."
+  },
+  {
+    "title": "🎯 Single-Digit Numbers",
+    "input": {
+      "l1": [7],
+      "l2": [2]
+    },
+    "output": [9],
+    "description": "🔢 Handles the simplest non-zero single-digit addition."
+  },
+  {
+    "title": "💫 Carry Into the Next Digit",
+    "input": {
+      "l1": [5],
+      "l2": [5]
+    },
+    "output": [0, 1],
+    "description": "🔄 The addition produces a carry that becomes a new digit."
+  },
+  {
+    "title": "🚀 Long Carry Chain",
+    "input": {
+      "l1": [9, 9, 9, 9, 9, 9, 9],
+      "l2": [9, 9, 9, 9]
+    },
+    "output": [8, 9, 9, 9, 0, 0, 0, 1],
+    "description": "🔥 Multiple 9s create a long chain of carries across the numbers."
+  },
+  {
+    "title": "🌟 Uneven Numbers",
+    "input": {
+      "l1": [1, 8, 2, 7],
+      "l2": [9, 1]
+    },
+    "output": [0, 0, 3, 7],
+    "description": "🧩 Tests addition when one number has significantly fewer digits."
+  },
+  {
+    "title": "💥 Large Carry at the End",
+    "input": {
+      "l1": [9, 9, 9],
+      "l2": [9, 0, 0]
+    },
+    "output": [8, 0, 0, 1],
+    "description": "🎯 Tests a carry that travels through the remaining higher-order digits."
+  },
+  {
+    "title": "🏆 Maximum-Length Lists",
+    "input": {
+      "l1": [9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
+      "l2": [1]
+    },
+    "output": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+    "description": "📏 Tests addition with a long linked list and a carry-generated extra digit."
+  }
+]
