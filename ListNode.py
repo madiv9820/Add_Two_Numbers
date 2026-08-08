@@ -1,3 +1,10 @@
+'''
+📄 ListNode.py — File Description
+
+Defines the reusable ListNode class used to represent nodes in a singly linked list, 
+storing an integer value and a reference to the next node. 🔗
+'''
+
 from typing import Optional
 
 class ListNode:
