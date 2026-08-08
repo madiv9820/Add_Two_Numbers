@@ -23,9 +23,9 @@ class Single_Pass_LL_Add:
     """
 
     def __init__(
-        self,
-        l1: Optional[ListNode],
-        l2: Optional[ListNode],
+        self                    ,
+        l1: Optional[ListNode]  ,
+        l2: Optional[ListNode]  ,
     ) -> None:
 
         # 📥 Keep track of the two numbers we are about to add.
